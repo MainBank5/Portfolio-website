@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+}
+
+.navbar-glass {
+    @apply backdrop-filter backdrop-blur-md bg-opacity-75;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
