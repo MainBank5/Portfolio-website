@@ -61,7 +61,7 @@ const NavBar = () => {
                 smooth={true}
                 duration={300}
                 spy={true}
-                offset={-70} // Adjust this value based on your layout
+                offset={-70} 
                 hashSpy={true}
               >
                 {nav}
