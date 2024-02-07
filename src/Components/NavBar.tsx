@@ -80,7 +80,7 @@ const NavBar = () => {
           variants={variants}
           initial="hidden"
           animate="visible"
-          className="flex flex-col justify-center items-center w-full h-screen absolute top-0 left-0 bg-[#0c0c1d]"
+          className="flex flex-col justify-center items-center w-full h-screen absolute top-0 left-0 right-4 bg-[#0c0c1d]"
         >
           {navList.map((nav, index) => (
             <motion.li
